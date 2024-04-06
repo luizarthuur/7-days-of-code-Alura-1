@@ -21,6 +21,8 @@
     --bordo-principal: #8E2424;
     --cor-background-texto: #f9F4F4 ;
     --borda-vagas: #EAECF0;
+    --background-section-5: #FDF8F8;
+
 
      
 }
@@ -180,4 +182,59 @@
     display: flex;
     flex-direction: column;
     margin-top: 5em;
+}
+
+.conteudo__section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 1280px;
+    height: 404px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: var(--background-section-5);
+    margin: 2em auto;
+
+}
+
+.conteudo__section-5__titulo-primario{
+    color: var(--bordo-principal);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 2em auto;
+}
+
+.conteudo__section-5__subtitulo{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.conteudo__section-5__colaborador{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    margin: 2em 0;
+}
+
+.conteudo__section-5__foto_colaborador{
+    width: 56px;
+    height: 56px;
+    text-align: center;
+    margin: 0.5em auto 1em auto;
+}
+
+.conteudo__section-5__subtitulo__texto-nome{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.conteudo__section-5__subtitulo__texto-funcao{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
 }
