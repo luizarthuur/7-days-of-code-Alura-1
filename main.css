@@ -22,7 +22,9 @@
     --cor-background-texto: #f9F4F4 ;
     --borda-vagas: #EAECF0;
     --background-section-5: #FDF8F8;
-
+    --background-rodape: #F9FAFB;
+    --rodape-borda: #D0D5DD;
+    --cor-texto-rodape: #98A2B3;
 
      
 }
@@ -145,6 +147,9 @@
     flex-direction: column;
 }
 
+.conteudo__section-4{
+    margin-top: 1em;
+}
 
 .conteudo__section-4__titulo{
     font-size: 20px;
@@ -195,7 +200,7 @@
     padding: 32px;
     border-radius: 16px;
     background-color: var(--background-section-5);
-    margin: 2em auto;
+    margin: 5em auto;
 
 }
 

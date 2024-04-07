@@ -4,6 +4,7 @@
 
 @import url(header.css);
 @import url(main.css);
+@import url(footer.css);
 
 *{
     margin: 0px;
@@ -18,11 +19,17 @@
     --cor-titulo: #3A404E;
     --cor-texto:  #667085;
     --branco-principal: white;
-    --preto-principal: black;
+    --preto-principal: #101828;
     --bordo-principal: #8E2424;
+    --cor-background-texto: #f9F4F4 ;
+    --borda-vagas: #EAECF0;
+    --background-section-5: #FDF8F8;
+    --background-rodape: #F9FAFB;
+    --rodape-borda: #D0D5DD;
+    --cor-texto-rodape: #98A2B3;
+
      
 }
-
 
 body{
     font-family: var(--fonte-principal);
